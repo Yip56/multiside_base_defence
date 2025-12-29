@@ -5,7 +5,7 @@ draw_self();
 // 1️⃣ Draw line to locked target
 // --------------------
 if (locked_target != noone && instance_exists(locked_target)) {
-    draw_set_alpha(0.8);
+    draw_set_alpha(0);
     draw_set_color(c_red);
 
     draw_line_width(
@@ -15,9 +15,6 @@ if (locked_target != noone && instance_exists(locked_target)) {
         locked_target.y,
         2
     );
-
-    draw_set_alpha(1);
-    draw_set_color(c_white);
 }
 
 // --------------------
@@ -55,7 +52,7 @@ if (locked_target != noone && instance_exists(locked_target)) {
         sy + py,
         ex + px * off,
         ey + py * off,
-        2
+        1
     );
 
     // RIGHT timing line
@@ -64,7 +61,7 @@ if (locked_target != noone && instance_exists(locked_target)) {
         sy - py,
         ex - px * off,
         ey - py * off,
-        2
+        1
     );
 
     draw_set_alpha(1);

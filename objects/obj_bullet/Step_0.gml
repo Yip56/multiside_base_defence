@@ -1,3 +1,11 @@
+if (instance_exists(obj_pause_ui) && obj_pause_ui.is_paused) {
+    exit;
+}
+
+if(touch_count >= 3){
+	instance_destroy();
+}
+
 // Move bullet
 x += dir_x * bullet_speed;
 y += dir_y * bullet_speed;

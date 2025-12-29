@@ -1,3 +1,4 @@
 
-bullet_speed = 1;
+bullet_speed = 30;
 
+touch_count = 0;

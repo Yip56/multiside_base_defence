@@ -10,8 +10,8 @@
   "name":"obj_damage_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player Objects",
+    "path":"folders/Objects/Player Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

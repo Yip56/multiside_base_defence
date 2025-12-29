@@ -1,13 +1,13 @@
 if (keyboard_check_pressed(ord("1"))) current_side = 0;
 if (keyboard_check_pressed(ord("2"))) current_side = 1;
 
-var zx = zones[current_side].x;
-var zy = zones[current_side].y;
+zx = zones[current_side].x;
+zy = zones[current_side].y;
 
 // Move camera
 camera_set_view_pos(cam, zx, zy);
 
-// Move base to bottom center
+// Move player to bottom center
 var p = instance_find(obj_player, 0);
 if (p != noone)
 {
@@ -18,3 +18,5 @@ if (p != noone)
     player_targets[current_side].x = p.x;
     player_targets[current_side].y = p.y;
 }
+
+

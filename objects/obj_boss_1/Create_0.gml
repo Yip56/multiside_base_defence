@@ -1,0 +1,1 @@
+is_boss = true;
