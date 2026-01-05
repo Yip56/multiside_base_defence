@@ -4,3 +4,5 @@ map_y = 0.5;   // normalized (0–1)
 
 radius = 30;
 hover = false;
+
+clicked = false;

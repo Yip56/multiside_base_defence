@@ -4,7 +4,7 @@ cooldown_timer = 0;
 
 locked_target = noone;
 
-// Timing lines
+// Timing lines (recoil)
 max_timing_offset = 60;
 timing_offset = max_timing_offset;
 timing_speed  = 3.2;

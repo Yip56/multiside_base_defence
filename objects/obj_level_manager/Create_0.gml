@@ -15,6 +15,20 @@ switch (level_id)
         win_type = "kill_count";
         target_kills = 10;
         break;
+    case 2:
+        win_type = "kill_count";
+        target_kills = 20;
+        break;
+    case 3:
+        win_type = "kill_count";
+        target_kills = 30;
+        break;
+    case 4:
+        win_type = "kill_count";
+        target_kills = 40;
+        break;
+	
+	
 
     // --------------------
     // BOSS LEVEL

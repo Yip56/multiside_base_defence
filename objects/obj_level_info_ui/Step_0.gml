@@ -1,6 +1,7 @@
 // Mouse position
-var mx = mouse_x;
-var my = mouse_y;
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
+
 
 // --------------------
 // PLAY BUTTON CLICK
@@ -18,6 +19,7 @@ if (
     if (mouse_check_button_pressed(mb_left))
     {
         global.current_level = level_id;
+		obj_level_node.clicked = false;
         room_goto(rm_game);
     }
 }
@@ -37,6 +39,7 @@ if (
 {
     if (mouse_check_button_pressed(mb_left))
     {
+		obj_level_node.clicked = false;
         instance_destroy();
     }
 }

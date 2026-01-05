@@ -35,3 +35,17 @@ with (obj_player)
         other.is_locked = true;
     }
 }
+
+// Damage to player
+if (has_damaged) exit;
+
+if (!has_damaged)
+{
+    if (point_distance(x, y, target_x, target_y) < 20)
+    {
+        obj_player.hp -= damage;
+        has_damaged = true;
+        instance_destroy(); // or play attack animation first
+    }
+}
+
