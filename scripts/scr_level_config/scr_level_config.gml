@@ -1,11 +1,11 @@
-function scr_level_config(_level)
+function get_level_config(_level)
 {
     switch (_level)
     {
         case 1:
             return {
                 enemies : [
-                    { type: obj_enemy_slow, count: 3 }
+                    { type: obj_enemy, count: 3 }
                 ],
                 spawn_delay : 60
             };

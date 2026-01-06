@@ -40,7 +40,7 @@ for (var i = 0; i < menu_count; i++)
                     break;
 
                 case "Settings":
-                    // later
+					show_message("Settings coming soon");
                     break;
 
                 case "Exit":

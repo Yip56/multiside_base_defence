@@ -1,6 +1,10 @@
 btn_w = 220;
 btn_h = 60;
 
-cx = camera_get_view_width(view_camera[0]) / 2 + 230;
-cy = camera_get_view_height(view_camera[0]) / 2;
+gui_w = display_get_gui_width();
+gui_h = display_get_gui_height();
+
+cx = gui_w / 2;
+cy = gui_h / 2;
+
 

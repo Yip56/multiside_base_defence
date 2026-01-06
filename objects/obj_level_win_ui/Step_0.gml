@@ -1,5 +1,9 @@
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
+
+
 // NEXT LEVEL
-if (point_in_rectangle(mouse_x, mouse_y,
+if (point_in_rectangle(mx, my,
     cx-btn_w/2, cy+40-btn_h/2,
     cx+btn_w/2, cy+40+btn_h/2))
 {
@@ -11,7 +15,7 @@ if (point_in_rectangle(mouse_x, mouse_y,
 }
 
 // LEVEL SELECT
-if (point_in_rectangle(mouse_x, mouse_y,
+if (point_in_rectangle(mx, my,
     cx-btn_w/2, cy+120-btn_h/2,
     cx+btn_w/2, cy+120+btn_h/2))
 {
