@@ -14,7 +14,7 @@ function find_nearest_enemy_on_side(timing_offset){
 	
 	
 	// Loop through enemies
-	with (obj_enemy)
+	with (obj_enemy_parent)
 	{
 		
 	   // Only enemies on current side

@@ -110,7 +110,7 @@ if ((mouse_check_button_pressed(mb_left) || mouse_check_button(mb_left)) && cool
 
 // Damage receive
 
-var enemy = instance_place(x, y, obj_enemy);
+var enemy = instance_place(x, y, obj_enemy_parent);
 
 
 if(hp <= 0 && is_dead == false){

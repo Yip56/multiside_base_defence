@@ -5,7 +5,7 @@ function get_level_config(_level)
         case 1:
             return {
                 enemies : [
-                    { type: obj_enemy, count: 3 }
+                    { type: obj_enemy_slow, count: 3 }
                 ],
                 spawn_delay : 60
             };
@@ -22,10 +22,26 @@ function get_level_config(_level)
         case 3:
             return {
                 enemies : [
-                    { type: obj_enemy_fast, count: 6 },
-                    { type: obj_enemy_tank, count: 1 }
+                    { type: obj_enemy_fast, count: 60 },
+                    { type: obj_enemy_tank, count: 10 }
                 ],
                 spawn_delay : 30
+            };
+        case 4:
+            return {
+                enemies : [
+                    { type: obj_enemy_fast, count: 60 },
+                    { type: obj_enemy_tank, count: 100 }
+                ],
+                spawn_delay : 10
+            };
+        case 5:
+            return {
+                enemies : [
+                    //{ type: obj_enemy_fast, count: 60 },
+                    { type: obj_enemy_tank, count: 10 }
+                ],
+                spawn_delay : 5
             };
     }
 }

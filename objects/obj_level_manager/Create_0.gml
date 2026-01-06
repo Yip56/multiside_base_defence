@@ -39,15 +39,15 @@ switch (level_id)
         break;
     case 2:
         win_type = "kill_count";
-        target_kills = 20;
+        target_kills = array_length(spawn_queue);
         break;
     case 3:
         win_type = "kill_count";
-        target_kills = 30;
+        target_kills = array_length(spawn_queue);
         break;
     case 4:
         win_type = "kill_count";
-        target_kills = 40;
+        target_kills = array_length(spawn_queue);
         break;
 	
 	

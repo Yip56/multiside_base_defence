@@ -6,7 +6,7 @@ function scr_spawn_enemy_single(_side, _x, _y)
     var cam_ctrl = instance_find(obj_camera_controller, 0);
     if (!instance_exists(cam_ctrl)) exit;
 
-    var e = instance_create_layer(_x, _y, "Instances", obj_enemy);
+    var e = instance_create_layer(_x, _y, "Instances", obj_enemy_slow);
 
     // Lock enemy to side
     e.side_id = _side;
