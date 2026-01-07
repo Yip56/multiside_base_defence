@@ -1,7 +1,9 @@
-move_speed = 2;
-max_hp = 20;
+move_speed = 1;
+max_hp = 1;
 hp = max_hp;
 is_locked = false;
-damage = 50;
+damage = 0;
 is_killed_by_click = false;
 has_damaged = false;
+side = -1; // or set manually when spawning
+attack_range = 0;

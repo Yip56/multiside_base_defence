@@ -8,11 +8,8 @@ if (spawn_timer >= config.spawn_delay)
     {
         var enemy_type = spawn_queue[spawn_index];
         spawn_index++;
-
-        with (obj_enemy_spawner)
-        {
-            spawn_enemy(enemy_type);
-        }
+		
+        spawn_enemy(enemy_type);
     }
 }
 

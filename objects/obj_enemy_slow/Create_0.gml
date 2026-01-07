@@ -5,3 +5,5 @@ is_locked = false;
 damage = 50;
 is_killed_by_click = false;
 has_damaged = false;
+side = -1;
+attack_range = 10;

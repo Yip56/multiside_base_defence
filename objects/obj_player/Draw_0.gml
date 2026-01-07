@@ -5,6 +5,7 @@ draw_self();
 // 1️⃣ Draw line to locked target
 // --------------------
 if (locked_target != noone && instance_exists(locked_target)) {
+
     draw_set_alpha(0);
     draw_set_color(c_red);
 
@@ -16,6 +17,7 @@ if (locked_target != noone && instance_exists(locked_target)) {
         2
     );
 }
+
 
 // --------------------
 // 2️⃣ Draw TWO timing lines along the lock line

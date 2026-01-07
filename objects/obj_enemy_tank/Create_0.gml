@@ -5,3 +5,4 @@ is_locked = false;
 damage = 100;
 is_killed_by_click = false;
 has_damaged = false;
+side = -1;
