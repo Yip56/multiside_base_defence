@@ -41,7 +41,7 @@ if (has_damaged) exit;
 
 if (!has_damaged)
 {
-    if (point_distance(x, y, target_x, target_y) < 20)
+    if (point_distance(x, y, target_x, target_y) < 60)
     {
         obj_player.hp -= damage;
         has_damaged = true;

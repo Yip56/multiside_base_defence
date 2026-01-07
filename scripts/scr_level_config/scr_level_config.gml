@@ -39,7 +39,7 @@ function get_level_config(_level)
             return {
                 enemies : [
                     //{ type: obj_enemy_fast, count: 60 },
-                    { type: obj_enemy_tank, count: 10 }
+                    { type: obj_enemy_tank, count: 200 }
                 ],
                 spawn_delay : 5
             };

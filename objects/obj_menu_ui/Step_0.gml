@@ -24,7 +24,8 @@ for (var i = 0; i < menu_count; i++)
                 case "Continue":
                     if (has_save)
                     {
-                        global.selected_level = global.current_level;
+                        global.current_level = global.unlocked_levels;
+						global.selected_level = global.current_level;
                         room_goto(rm_game);
                     }
                     break;
