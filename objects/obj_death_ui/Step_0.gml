@@ -21,35 +21,16 @@ for (var i = 0; i < menu_count; i++)
 
             switch (item)
             {
-                case "Continue":
-                    if (has_save)
-                    {
-                        global.current_level = global.unlocked_levels;
-						global.selected_level = global.current_level;
-                        room_goto(rm_game);
-                    }
-                    break;
-
-                case "Start":
-                    global.current_level  = 1;
-                    global.selected_level = 1;
+                case "Retry":
                     room_goto(rm_game);
+                    
                     break;
 
-                case "Levels":
-                    room_goto(rm_level_select);
-                    break;
-                case "Armory":
-                    room_goto(rm_armory);
+                case "Menu":
+                    room_goto(rm_menu);
                     break;
 
-                case "Settings":
-					show_message("Settings coming soon");
-                    break;
 
-                case "Exit":
-                    game_end();
-                    break;
             }
         }
     }

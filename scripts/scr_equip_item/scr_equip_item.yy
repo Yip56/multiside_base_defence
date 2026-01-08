@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_equip_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_equip_item",
+  "parent":{
+    "name":"Armory",
+    "path":"folders/Scripts/Armory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

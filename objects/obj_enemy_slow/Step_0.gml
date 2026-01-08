@@ -47,11 +47,7 @@ is_locked = false;
 with (obj_player) {
     if (locked_target == other) {
         other.is_locked = true;
-		show_debug_message("gay");
     }
-	else{
-		show_debug_message("gay");	
-	}
 }
 
 // Damage player ONCE

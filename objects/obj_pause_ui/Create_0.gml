@@ -1,5 +1,5 @@
 is_paused = false;
-
+global.level_completed = false;
 // Pause button (top-right)
 pause_btn_w = 60;
 pause_btn_h = 60;
@@ -7,7 +7,7 @@ pause_btn_x = display_get_gui_width() - pause_btn_w - 20;
 pause_btn_y = 20;
 
 // Pause menu buttons
-menu_items = ["Continue", "Settings", "Exit"];
+menu_items = ["Continue", "Retry", "Settings", "Exit"];
 menu_count = array_length(menu_items);
 selected = -1;
 

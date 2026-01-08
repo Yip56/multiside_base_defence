@@ -47,13 +47,9 @@ is_locked = false;
 with (obj_player) {
     if (locked_target == other) {
         other.is_locked = true;
-		show_debug_message("gay");
-    }
-	else{
-		show_debug_message("gay");	
-	}
-}
 
+    }
+}
 // Damage player ONCE
 if (!has_damaged) {
     if (point_distance(x, y, p.x, p.y) < 60) {

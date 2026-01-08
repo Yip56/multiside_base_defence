@@ -1,0 +1,1 @@
+tab_type = EQUIP_TYPE.ARMOR;

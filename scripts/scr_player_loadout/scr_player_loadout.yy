@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_player_loadout",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_player_loadout",
+  "parent":{
+    "name":"Armory",
+    "path":"folders/Scripts/Armory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
