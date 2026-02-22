@@ -1,0 +1,1 @@
+slot_type = EQUIP_TYPE.ARMOR;
