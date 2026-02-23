@@ -12,7 +12,7 @@ for (var i = 0; i < array_length(inventory); i++)
     var ix = grid_start_x + (idx mod 5) * grid_spacing;
     var iy = grid_start_y + (idx div 5) * grid_spacing;
 
-    var it = instance_create_layer(ix, iy, "Instances", obj_ui_item);
+    var it = instance_create_layer(ix, iy, "UI", obj_ui_item);
     it.item_id = _id;
 
     idx++;
