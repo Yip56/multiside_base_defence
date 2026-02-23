@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_rebuild_armory_items",
+  "%Name":"scr_rebuild_inventory_ui",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_rebuild_armory_items",
+  "name":"scr_rebuild_inventory_ui",
   "parent":{
     "name":"Armory",
     "path":"folders/Scripts/Armory.yy",

@@ -47,3 +47,6 @@ slot_positions = {
     gadget: { x: 0, y: -120 },
     boots:  { x: 0, y: 180 }
 };
+
+rebuild_tabs();
+rebuild_inventory_ui();

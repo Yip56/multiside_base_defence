@@ -1,9 +1,5 @@
-var mx = mouse_x;
-var my = mouse_y;
-
-
-//var mx = device_mouse_x_to_gui(0);
-//var my = device_mouse_y_to_gui(0);
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
 
 hovered =
     mx > x - sprite_width/2 &&
