@@ -17,7 +17,7 @@
     "name":"obj_ui_button",
     "path":"objects/obj_ui_button/obj_ui_button.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

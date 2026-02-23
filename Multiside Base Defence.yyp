@@ -93,6 +93,7 @@
     {"id":{"name":"spr_weapon_pistol","path":"sprites/spr_weapon_pistol/spr_weapon_pistol.yy",},},
     {"id":{"name":"spr_weapon_rifle","path":"sprites/spr_weapon_rifle/spr_weapon_rifle.yy",},},
     {"id":{"name":"spr_world_map_1","path":"sprites/spr_world_map_1/spr_world_map_1.yy",},},
+    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"test","path":"sprites/test/test.yy",},},
   ],
   "resourceType":"GMProject",

@@ -2,6 +2,7 @@ draw_sprite(sprite_index, 0, x, y);
 
 if (hovered)
 {
+	show_debug_message("hi");
     draw_set_alpha(0.2);
     draw_set_color(c_white);
     draw_rectangle(
