@@ -1,3 +1,9 @@
+level_time = 0; // in seconds
+event_index = 0;
+
+// New timeline events from config
+timeline_events = config.timeline;
+
 level_id = global.current_level;
 
 level = global.current_level;

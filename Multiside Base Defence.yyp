@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Data","folderPath":"folders/Data.yy","name":"Data","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Armory Objects","folderPath":"folders/Objects/Armory Objects.yy","name":"Armory Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Camera Objects","folderPath":"folders/Objects/Camera Objects.yy","name":"Camera Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -33,6 +34,7 @@
   },
   "name":"Multiside Base Defence",
   "resources":[
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_armory_controller","path":"objects/obj_armory_controller/obj_armory_controller.yy",},},
     {"id":{"name":"obj_back_button_ui","path":"objects/obj_back_button_ui/obj_back_button_ui.yy",},},
     {"id":{"name":"obj_boss_1","path":"objects/obj_boss_1/obj_boss_1.yy",},},
